@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HVI PROJECT</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./static/styles.css">
+    </head>
+    <body background="http://www.paisleystudios.com.au/wp-content/uploads/2016/04/background-banner1.jpg">
+        <strong>
+            <nav>
+              <ul class="menu">
+                <li class="disable-selection"><b>HVI project page</b></li>
+                <li><a href="./home">Home</a></li>
+                <li><a href="./test">Test system</a></li>
+                <li><a href="./downloads">Downloads</a></li>
+                <li><a href="./about">Team members</a></li>
+              </ul>
+            </nav>
+        </strong>
+
+        <div class="container body-content jumbotron text-center">
+                <h1>Breast Cancer Prediction Project</h1>
+            <p class="lead">This page was created as a part of our assignment. System consists of RBF network trained with data from
+                <a href="https://www.kaggle.com/uciml/breast-cancer-wisconsin-data">Breast Cancer Wisconsin Dataset</a>. System predicts if cell nuclei features matches those who are <i>malignant</i> or <i>benign</i>.
+            </p>
+
+            <hr>
+
+            <div class="row">
+                <div class="col text-center">
+                    <h4>Test our model</h4>
+                    <p>Click button below to test our model with your data.</p>
+                </div>
+                <div class="col text-center">
+                    <h4>Download content</h4>
+                    <p>Click button below to download documentation, presentation or our project files.</p>
+                </div>
+                <div class="col text-center">
+                    <h4>Check out our team</h4>
+                    <p>Click button below to check out people that participated on this project.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <button class="front-button btn-block" onclick="location.href = './test'">TEST</button>
+                </div>
+                <div class="col text-center">
+                    <button class="front-button btn-block" onclick="location.href = './downloads'">DOWNLOAD</button>
+                </div>
+                <div class="col text-center">
+                    <button class="front-button btn-block" onclick="location.href = './about'">TEAM</button>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </body>
+    <footer style="text-align:center;">
+      <p>© 2019 - DreamTeam</p>
+    </footer>
+</html>

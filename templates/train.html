@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Train system</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+         <link rel="stylesheet" href="./static/styles.css">
+    </head>
+    <body background="http://www.paisleystudios.com.au/wp-content/uploads/2016/04/background-banner1.jpg">
+        <strong>
+            <nav>
+              <ul class="menu">
+                <li class="disable-selection"><b>HVI project page</b></li>
+                <li><a href="./home">Home</a></li>
+                <li><a href="./test">Test system</a></li>
+                <li><a href="./downloads">Downloads</a></li>
+                <li><a href="./about">Team members</a></li>
+              </ul>
+            </nav>
+        </strong>
+        <div class="container body-content jumbotron">
+            <div class="row">
+                <div class="col">
+                    <h4>Upload data:</h4>
+                </div>
+            </div>
+            <hr>
+            <form id="upload-form" action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+                <input type="file" name="file" accept="image/*" multiple>
+                <input type="submit" value="send">
+            </form>
+            <hr>
+            <div style="color: mediumblue">
+                <p>Data output: {{ variable }}</p>
+                <p>Testing data output: {{ variable1 }}</p>
+            </div>
+        </div>
+    </body>
+    <footer style="text-align:center;">
+      <p>© 2019 - DreamTeam</p>
+    </footer>
+</html>

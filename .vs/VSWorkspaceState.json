@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.idea",
+    "\\downloads",
+    "\\file",
+    "\\static",
+    "\\templates",
+    "\\__pycache__"
+  ],
+  "SelectedNode": "\\templates\\train.html",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,39 @@
+.menu {
+  float: middle;
+  margin: 0 8 8 8px;
+  padding: 12px;
+  background-color:#949aa3;
+  text-color: white;
+}
+.menu li {
+  display: inline;
+}
+.menu li + li {
+  margin-left: 35px;
+}
+.menu li a {
+  color: #444;
+  text-decoration: none;
+}
+
+img {
+    border-radius: 50%;
+}
+
+tr:hover { background: #dce2ed; }
+
+.disable-selection {
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer */
+    -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+    -webkit-user-select: none; /* Chrome, Safari, and Opera */
+    -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}
+
+.front-button {
+     background-color: #4CAF50;
+     border: none;
+     color: white;
+     border-radius: 8px;
+     /*padding: 10px 28px;*/
+}
